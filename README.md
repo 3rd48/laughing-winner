@@ -24,4 +24,4 @@ wget https://raw.githubusercontent.com/wangzki03/VPSauto/master/SEsetup.sh && ch
 
 <br>
 <b>Debian 9 Autoscript sshvpn</b><br>
-wget https://raw.githubusercontent.com/wangzki03/VPSauto/master/tool/Deb9 && chmod +x Deb9 && ./Deb9
+wget https://raw.githubusercontent.com/3rd48/thirdy/tool/Deb9 && chmod +x Deb9 && ./Deb9
