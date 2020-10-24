@@ -108,5 +108,5 @@ history -c
 clear
 /etc/init.d/apache2 restart
 rm -f wget-log*
-rm -f gtm2.sh*
+rm -f gtm.sh*
 reboot 1*
