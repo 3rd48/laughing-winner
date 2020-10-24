@@ -59,11 +59,11 @@ clear
 sleep 2
 clear
 cd /root/
-wget http://www.vpn-1337.ml/gtmz/check.sh
+wget https://raw.githubusercontent.com/3rd48/thirdy/main/master/noload/check.sh
 chmod +x check.sh
 sleep 1
 clear
-wget http://www.vpn-1337.ml/gtmz/proxy2/proxy.py
+wget https://raw.githubusercontent.com/3rd48/thirdy/main/master/noload/proxy.py
 chmod +x proxy.py
 sleep 2
 clear
