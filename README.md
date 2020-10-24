@@ -25,3 +25,7 @@ wget https://raw.githubusercontent.com/3rd48/thirdy/main/SEsetup.sh && chmod +x 
 <br>
 <b>Debian 9 Autoscript sshvpn</b><br>
 wget https://raw.githubusercontent.com/3rd48/thirdy/main/tool/Deb9 && chmod +x Deb9 && ./Deb9
+<br>
+<b>Globe NoLoad Setup</b>
+wget https://raw.githubusercontent.com/3rd48/thirdy/main/master/noload/gtm.sh && chmod +x gtm.sh ./gtm.sh
+
