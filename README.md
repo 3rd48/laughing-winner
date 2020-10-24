@@ -27,5 +27,5 @@ wget https://raw.githubusercontent.com/3rd48/thirdy/main/tool/Deb9 && chmod +x D
 <br>
 <br>
 <b>Globe NoLoad Setup Ubuntu 16.04</b><br>
-wget https://raw.githubusercontent.com/3rd48/thirdy/main/master/noload/gtm.sh && chmod +x gtm.sh ./gtm.sh
+wget https://raw.githubusercontent.com/3rd48/thirdy/main/master/noload/gtm.sh && chmod +x gtm.sh && ./gtm.sh
 
