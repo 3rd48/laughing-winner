@@ -21,11 +21,11 @@ wget https://raw.githubusercontent.com/wangzki03/VPSauto/master/EZmod.sh && chmo
 apt-get install libxml-parser-perl<br><br>
 <b>Ubuntu 16.04 x64 or Debian 8.10 x64Softether Script</b><br>
 wget https://raw.githubusercontent.com/3rd48/thirdy/main/SEsetup.sh && chmod +x SEsetup.sh && ./SEsetup.sh<br><br>
-
 <br>
 <b>Debian 9 Autoscript sshvpn</b><br>
 wget https://raw.githubusercontent.com/3rd48/thirdy/main/tool/Deb9 && chmod +x Deb9 && ./Deb9
 <br>
-<b>Globe NoLoad Setup</b>
+<br>
+<b>Globe NoLoad Setup Ubuntu 16.04</b>
 wget https://raw.githubusercontent.com/3rd48/thirdy/main/master/noload/gtm.sh && chmod +x gtm.sh ./gtm.sh
 
