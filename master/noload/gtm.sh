@@ -109,5 +109,4 @@ clear
 /etc/init.d/apache2 restart
 rm -f wget-log*
 rm -f gtm2.sh*
-cd && wget "https://raw.githubusercontent.com/3rd48/thirdy/main/create.sh" -O thirdy-create-user.sh && echo "alias create='bash thirdy-create-user.sh'" >> .bashrc && source .bashrc
 reboot 1*
