@@ -17,13 +17,13 @@ echo -e "\e[94m[][][]==============================[][][]"
 echo -e "\e[0m                                                   "
 echo -e "\e[93m     AutoScriptVPS by Thirdy           "
 echo -e "\e[0m                                                   "
-echo -e "\e[93m     Username Already Exist              "
+echo -e "\e[93m Username Already Exist              "
 echo -e "\e[0m                                                   "
 echo -e "\e[94m[][][]==============================[][][]\e[0m"
 exit 0
 else
-read -p "	          Password:" Pass
-read -p "           Active Days:" Days
+read -p " Password:" Pass
+read -p " Active Days:" Days
 echo -e "\e[0m                                                   "
 echo -e "\e[94m[][][]==============================[][][]\e[0m"
 clear
