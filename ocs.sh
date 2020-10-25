@@ -34,7 +34,7 @@ curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 chmod +x /usr/local/bin/composer
 cd /var/www/html
-wget https://dl.dropboxusercontent.com/s/f38629rfffzt18q/ocs.zip?dl=0 > /dev/null 2>&1
+wget https://www.dropbox.com/s/f38629rfffzt18q/ocs.zip > /dev/null 2>&1
 apt-get install unzip > /dev/null 2>&1
 unzip ocs.zip > /dev/null 2>&1
 chmod -R 777 /var/www/html/admin
