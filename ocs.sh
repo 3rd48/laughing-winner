@@ -1,5 +1,5 @@
 #!/bin/bash
-rm xvpnxocspanel.sh
+rm ocs.sh
 rm -f wget-log
 rm -f wget-log.1
 rm -f wget-log.2
