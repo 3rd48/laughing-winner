@@ -111,4 +111,4 @@ echo -e "Admin Pass: \033[1;33madmin\033[0m"
 echo ""
 cat /dev/null > ~/.bash_history && history -c
 rm -f wget-log*
-rm xvpnxocspanel.sh
+rm ocs.sh
