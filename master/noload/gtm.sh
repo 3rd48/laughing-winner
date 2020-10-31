@@ -18,8 +18,8 @@ echo -----------------------------------------------------
 echo Configuring SSHD Server
 echo -----------------------------------------------------
 sleep 2
-sed -i 's/Port 225/Port 225/g' /etc/ssh/sshd_config
-echo "SSHD Port Running on port: 225"
+sed -i 's/Port 22/Port 22/g' /etc/ssh/sshd_config
+echo "SSHD Port Running on port: 22"
 clear
 echo -----------------------------------------------------
 echo Configuring Sysctl
