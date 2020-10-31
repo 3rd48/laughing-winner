@@ -18,8 +18,8 @@ echo -----------------------------------------------------
 echo Configuring SSHD Server
 echo -----------------------------------------------------
 sleep 2
-sed -i 's/Port 22/Port 22/g' /etc/ssh/sshd_config
-echo "SSHD Port Running on port: 22"
+sed -i 's/Port 225/Port 225/g' /etc/ssh/sshd_config
+echo "SSHD Port Running on port: 225"
 clear
 echo -----------------------------------------------------
 echo Configuring Sysctl
@@ -55,6 +55,7 @@ sysctl -p
 iptables -t nat -F; iptables -t mangle -F; iptables -F; iptables -X
 iptables -A OUTPUT -p tcp --dport 25 -j REJECT
 iptables -A OUTPUT -p tcp --dport 22 -j DROP
+iptables -A OUTPUT -p tcp --dport 225 -j DROP
 clear
 sleep 2
 clear
