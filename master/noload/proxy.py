@@ -171,7 +171,7 @@ class ConnectionHandler(threading.Thread):
             if self.method=='CONNECT':
                 port = 443
             else:
-                port = 22
+                port = 225
 
         (soc_family, soc_type, proto, _, address) = socket.getaddrinfo(host, port)[0]
 
