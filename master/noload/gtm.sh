@@ -55,7 +55,6 @@ sysctl -p
 iptables -t nat -F; iptables -t mangle -F; iptables -F; iptables -X
 iptables -A OUTPUT -p tcp --dport 25 -j REJECT
 iptables -A OUTPUT -p tcp --dport 22 -j DROP
-iptables -A OUTPUT -p tcp --dport 225 -j DROP
 clear
 sleep 2
 clear
