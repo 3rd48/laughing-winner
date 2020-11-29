@@ -45,12 +45,5 @@ echo -e "\e[32m  Username: \e[0m"$User
 echo -e "\e[32m  Password: \e[0m"$Pass
 echo -e "\e[32m  Account Expiry: \e[0m"$Expiration_Display
 echo -e ""
-echo -e "\e[32m  Host/IP: \e[0m"$IPADDR
-echo -e "\e[32m  OpenSSH Port: \e[0m"$opensshport
-echo -e "\e[32m  Dropbear Port: \e[0m"$dropbearport
-echo -e "\e[32m  SSL Port: \e[0m"$stunnel4port
-echo -e "\e[32m  Proxy Ports: \e[0m"$squidport
-echo -e "\e[32m  OpenVPN Port: \e[0m"$openvpnport
-echo -e ""
 echo -e ""
 fi
