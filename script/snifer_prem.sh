@@ -347,10 +347,10 @@ error_reporting(E_ERROR | E_PARSE);
 ini_set('display_errors', '1');
 ini_set('max_execution_time', 150);
 
-dbhost='185.61.137.168';
-dbuser='snipervl_usernem';
-dbpass='sniper-vpn.cf2019';
-dbname='snipervl_databasenem';
+dbhost='151.106.97.159';
+dbuser='u586584281_third2ray';
+dbpass='@Thirdy19966';
+dbname='u586584281_third2ray';
 dbport='3306';
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
