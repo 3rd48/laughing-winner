@@ -6,10 +6,10 @@ MYIP=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*
 # set time GMT +8
 ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 #change this according to your database details
-dbhost='185.61.137.168';
-dbuser='snipervl_usernem';
-dbpass='sniper-vpn.cf2019';
-dbname='snipervl_databasenem';
+dbhost='151.106.97.159';
+dbuser='u586584281_third2ray';
+dbpass='@Thirdy19966';
+dbname='u586584281_third2ray';
 dbport='3306';
 clear
 dt=$(date '+%d/%m/%Y %H:%M:%S');
