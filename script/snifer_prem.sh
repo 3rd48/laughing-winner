@@ -230,11 +230,11 @@ clear
 echo "${yellow}Updating the System${reset}"
 echo "${green}It may take too long while we are Updating...${reset}"
 sleep 5s
-yum update -y 
-yum install telnet telnet-server vixie-cron crontabs httpd nano squid dos2unix mysql-server -y 
-yum install php php-pdo php-mysqli php-mysql php-gd php-mbstring.x86_64 epel-release -y 
-yum install openvpn -y
-yum -y install stunnel 
+apt update -y 
+apt install telnet telnet-server vixie-cron crontabs httpd nano squid dos2unix mysql-server -y 
+apt install php php-pdo php-mysqli php-mysql php-gd php-mbstring.x86_64 epel-release -y 
+apt install openvpn -y
+apt -y install stunnel 
 echo "${yellow}Updates Complete...${green}75%${reset}"
 sleep 5s
 clear
